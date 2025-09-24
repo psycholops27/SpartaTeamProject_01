@@ -5,9 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class SceneBtn : MonoBehaviour
 {
-    public void ToStart()
+    public void ToTitle()
     {
-        SceneManager.LoadScene("StartScene");
+        SceneManager.LoadScene("TitleScene");
     }
 
     public void Retry()
@@ -15,8 +15,8 @@ public class SceneBtn : MonoBehaviour
         SceneManager.LoadScene("MainScene");
     }
 
-    public void Credit()
+    public void ToCredit()
     {
-        SceneManager.LoadScene("CreditScene");
+        SceneManager.LoadScene("EndScene");
     }
 }
