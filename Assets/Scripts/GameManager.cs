@@ -43,7 +43,7 @@ public class GameManager : MonoBehaviour
     {
         time += Time.deltaTime;
         TimeTxt.text=time.ToString("N2");
-        if (time >= 30.0f)
+        if (time >= 45.0f)
         {
             GameOver();
         }

@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\COM\\Desktop\\Unity Projects\\SpartaTeamProject_01\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{35239F03-CA7D-30A7-8F2C-58A1EEDFD758}|Assembly-CSharp.csproj|c:\\users\\com\\desktop\\unity projects\\spartateamproject_01\\assets\\scripts\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35239F03-CA7D-30A7-8F2C-58A1EEDFD758}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35239F03-CA7D-30A7-8F2C-58A1EEDFD758}|Assembly-CSharp.csproj|C:\\Users\\COM\\Desktop\\Unity Projects\\SpartaTeamProject_01\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{35239F03-CA7D-30A7-8F2C-58A1EEDFD758}|Assembly-CSharp.csproj|c:\\users\\com\\desktop\\unity projects\\spartateamproject_01\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35239F03-CA7D-30A7-8F2C-58A1EEDFD758}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35239F03-CA7D-30A7-8F2C-58A1EEDFD758}|Assembly-CSharp.csproj|C:\\Users\\COM\\Desktop\\Unity Projects\\SpartaTeamProject_01\\assets\\scripts\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35239F03-CA7D-30A7-8F2C-58A1EEDFD758}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{35239F03-CA7D-30A7-8F2C-58A1EEDFD758}|Assembly-CSharp.csproj|C:\\Users\\COM\\Desktop\\Unity Projects\\SpartaTeamProject_01\\assets\\scripts\\scenebtn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35239F03-CA7D-30A7-8F2C-58A1EEDFD758}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenebtn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35239F03-CA7D-30A7-8F2C-58A1EEDFD758}|Assembly-CSharp.csproj|C:\\Users\\COM\\Desktop\\Unity Projects\\SpartaTeamProject_01\\assets\\scripts\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35239F03-CA7D-30A7-8F2C-58A1EEDFD758}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35239F03-CA7D-30A7-8F2C-58A1EEDFD758}|Assembly-CSharp.csproj|C:\\Users\\COM\\Desktop\\Unity Projects\\SpartaTeamProject_01\\assets\\scripts\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35239F03-CA7D-30A7-8F2C-58A1EEDFD758}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,17 +26,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\COM\\Desktop\\Unity Projects\\SpartaTeamProject_01\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
               "ToolTip": "C:\\Users\\COM\\Desktop\\Unity Projects\\SpartaTeamProject_01\\Assets\\Scripts\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-24T02:05:20.579Z",
               "IsPinned": true,
@@ -44,7 +44,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Card.cs",
               "DocumentMoniker": "C:\\Users\\COM\\Desktop\\Unity Projects\\SpartaTeamProject_01\\Assets\\Scripts\\Card.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Card.cs",
@@ -52,12 +52,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Card.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T02:05:26.949Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-24T02:05:26.949Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Board.cs",
               "DocumentMoniker": "C:\\Users\\COM\\Desktop\\Unity Projects\\SpartaTeamProject_01\\Assets\\Scripts\\Board.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Board.cs",
@@ -65,18 +64,17 @@
               "RelativeToolTip": "Assets\\Scripts\\Board.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T02:05:25.152Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-24T02:05:25.152Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "SceneBtn.cs",
               "DocumentMoniker": "C:\\Users\\COM\\Desktop\\Unity Projects\\SpartaTeamProject_01\\Assets\\Scripts\\SceneBtn.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SceneBtn.cs",
               "ToolTip": "C:\\Users\\COM\\Desktop\\Unity Projects\\SpartaTeamProject_01\\Assets\\Scripts\\SceneBtn.cs",
               "RelativeToolTip": "Assets\\Scripts\\SceneBtn.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-24T03:08:52.608Z",
               "EditorCaption": ""
