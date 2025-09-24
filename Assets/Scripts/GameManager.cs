@@ -78,6 +78,7 @@ public class GameManager : MonoBehaviour
     public void GameOver()
     {
         Time.timeScale = 0.0f;
+        TimeTxt.gameObject.SetActive(false);
         PopUP.SetActive(true);
         FailTxt.SetActive(true);
         FailBtn.SetActive(true);
