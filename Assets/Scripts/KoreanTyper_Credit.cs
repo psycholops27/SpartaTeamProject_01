@@ -17,7 +17,7 @@ public class Credit : MonoBehaviour {
     }
 
     public IEnumerator TypingText() {
-        while (true) {
+        
             //=======================================================================================================
             // Initializing | 초기화
             //=======================================================================================================
@@ -43,7 +43,7 @@ public class Credit : MonoBehaviour {
             }
             // Wait 1 second at the end | 마지막에 1초 추가 대기함
             yield return new WaitForSeconds(1f);
-        }
+        
     }
 }
 
