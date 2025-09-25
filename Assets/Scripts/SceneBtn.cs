@@ -17,7 +17,7 @@ public class SceneBtn : MonoBehaviour
 
     public void ToCredit()
     {
-        SceneManager.LoadScene("EndScene");
+        SceneManager.LoadScene("CreditScene");
     }
 
     public void GameExit()
