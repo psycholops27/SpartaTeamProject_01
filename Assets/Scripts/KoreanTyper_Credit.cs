@@ -12,6 +12,7 @@ public class Credit : MonoBehaviour {
     public Text[] CreditTexts;
 
     private void Start() {
+        Time.timeScale = 1.0f;  // 이전 씬에서 멈췄어도 여기서 정상 속도로 돌림
         StartCoroutine(TypingText());
     }
 
