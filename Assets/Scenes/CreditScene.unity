@@ -332,7 +332,7 @@ GameObject:
   - component: {fileID: 364701918}
   - component: {fileID: 364701917}
   m_Layer: 5
-  m_Name: Credit (4)
+  m_Name: Jun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -403,7 +403,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uAE40\uBB38\uACBD"
+  m_Text: "\uC774\uC900\uD601"
 --- !u!222 &364701919
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -425,7 +425,7 @@ GameObject:
   - component: {fileID: 461753604}
   - component: {fileID: 461753603}
   m_Layer: 5
-  m_Name: Credit (2)
+  m_Name: Hye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -518,7 +518,7 @@ GameObject:
   - component: {fileID: 479880688}
   - component: {fileID: 479880687}
   m_Layer: 5
-  m_Name: Credit (3)
+  m_Name: Ha
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -589,7 +589,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uC774\uC900\uD601"
+  m_Text: "\uAE40\uD558\uB298"
 --- !u!222 &479880689
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -611,7 +611,7 @@ GameObject:
   - component: {fileID: 578726970}
   - component: {fileID: 578726969}
   m_Layer: 5
-  m_Name: Credit (5)
+  m_Name: Hyun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -682,7 +682,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uAE40\uD558\uB298"
+  m_Text: "\uC815\uD604\uC6B0"
 --- !u!222 &578726971
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -704,7 +704,7 @@ GameObject:
   - component: {fileID: 700599997}
   - component: {fileID: 700599996}
   m_Layer: 5
-  m_Name: Credit (1)
+  m_Name: Mun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -775,7 +775,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uC815\uD604\uC6B0"
+  m_Text: "\uAE40\uBB38\uACBD"
 --- !u!222 &700599998
 CanvasRenderer:
   m_ObjectHideFlags: 0
