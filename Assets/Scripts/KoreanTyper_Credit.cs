@@ -3,29 +3,30 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using KoreanTyper;                                                  // Add KoreanTyper namespace | 네임 스페이스 추가
+
 //===================================================================================================================
 //  Auto Demo
 //  자동으로 글자가 입력되는 데모
 //===================================================================================================================
-public class Credit : MonoBehaviour
-{
+public class Credit : MonoBehaviour {
     public Text[] CreditTexts;
 
-    private void Start()
-    {
+    private void Start() {
         StartCoroutine(TypingText());
     }
 
-    public IEnumerator TypingText()
-    {
+    public IEnumerator TypingText() {
         while (true) {
             //=======================================================================================================
             // Initializing | 초기화
             //=======================================================================================================
-            string[] strings = new string[6]{ "Credit","김문경","김하늘","정현우","이준혁","김혜린" };
+            string[] strings = new string[2]{ "Introduce Us!",
+                                              "김문경 김하늘 정현우 이준혁 김혜린"};
             foreach (Text t in CreditTexts)
                 t.text = "";
             //=======================================================================================================
+
+
             //=======================================================================================================
             //  Typing effect | 타이핑 효과
             //=======================================================================================================
