@@ -3,15 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\COM\\Desktop\\Unity Projects\\SpartaTeamProject_01\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{35239F03-CA7D-30A7-8F2C-58A1EEDFD758}|Assembly-CSharp.csproj|c:\\users\\com\\desktop\\unity projects\\spartateamproject_01\\assets\\scripts\\koreantyper_credit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35239F03-CA7D-30A7-8F2C-58A1EEDFD758}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\koreantyper_credit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{35239F03-CA7D-30A7-8F2C-58A1EEDFD758}|Assembly-CSharp.csproj|C:\\Users\\COM\\Desktop\\Unity Projects\\SpartaTeamProject_01\\assets\\scripts\\scenebtn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35239F03-CA7D-30A7-8F2C-58A1EEDFD758}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenebtn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35239F03-CA7D-30A7-8F2C-58A1EEDFD758}|Assembly-CSharp.csproj|c:\\users\\com\\desktop\\unity projects\\spartateamproject_01\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{35239F03-CA7D-30A7-8F2C-58A1EEDFD758}|Assembly-CSharp.csproj|c:\\users\\com\\desktop\\unity projects\\spartateamproject_01\\assets\\scripts\\koreantyper_credit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35239F03-CA7D-30A7-8F2C-58A1EEDFD758}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\koreantyper_credit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35239F03-CA7D-30A7-8F2C-58A1EEDFD758}|Assembly-CSharp.csproj|C:\\Users\\COM\\Desktop\\Unity Projects\\SpartaTeamProject_01\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35239F03-CA7D-30A7-8F2C-58A1EEDFD758}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -47,12 +47,11 @@
               "ViewState": "AgIAAC4AAAAAAAAAAAAqwFsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-24T02:05:20.579Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "SceneBtn.cs",
               "DocumentMoniker": "C:\\Users\\COM\\Desktop\\Unity Projects\\SpartaTeamProject_01\\Assets\\Scripts\\SceneBtn.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SceneBtn.cs",
@@ -65,7 +64,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "KoreanTyper_Credit.cs",
               "DocumentMoniker": "C:\\Users\\COM\\Desktop\\Unity Projects\\SpartaTeamProject_01\\Assets\\Scripts\\KoreanTyper_Credit.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\KoreanTyper_Credit.cs",
