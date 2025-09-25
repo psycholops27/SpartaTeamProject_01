@@ -22,7 +22,8 @@ public class GameManager : MonoBehaviour
     public GameObject FailBtn;
 
     AudioSource audioSource;
-    public AudioClip clip;
+    public AudioClip Mainbgmclip;
+    public AudioClip Gameoverclip;
 
     public void Awake()
     {
@@ -57,7 +58,6 @@ public class GameManager : MonoBehaviour
     {
         if(firstCard.idx == secondCard.idx)
         {
-            audioSource.PlayOneShot(clip);
             firstCard.DestroyCard();
             secondCard.DestroyCard();
             CardCount -= 2;
