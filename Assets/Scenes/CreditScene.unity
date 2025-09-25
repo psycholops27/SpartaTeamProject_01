@@ -327,6 +327,7 @@ GameObject:
   - component: {fileID: 700599998}
   - component: {fileID: 700599997}
   - component: {fileID: 700599996}
+  - component: {fileID: 700599999}
   m_Layer: 5
   m_Name: Mun
   m_TagString: Untagged
@@ -409,6 +410,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 700599994}
   m_CullTransparentMesh: 1
+--- !u!114 &700599999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 700599994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 1, g: 1, b: 1, a: 0.5}
+  m_EffectDistance: {x: 1, y: -1}
+  m_UseGraphicAlpha: 1
 --- !u!1 &978590463
 GameObject:
   m_ObjectHideFlags: 0
@@ -421,6 +437,7 @@ GameObject:
   - component: {fileID: 978590466}
   - component: {fileID: 978590465}
   - component: {fileID: 978590467}
+  - component: {fileID: 978590468}
   m_Layer: 5
   m_Name: Credit
   m_TagString: Untagged
@@ -460,7 +477,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.36078432, g: 0.5157069, b: 0.9254902, a: 1}
+  m_Color: {r: 0.36078432, g: 0.4431373, b: 0.92549026, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -502,6 +519,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CreditTexts: []
+--- !u!114 &978590468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 978590463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 1, g: 1, b: 1, a: 0.5}
+  m_EffectDistance: {x: 1, y: -1}
+  m_UseGraphicAlpha: 1
 --- !u!1 &1392532006
 GameObject:
   m_ObjectHideFlags: 0
@@ -840,7 +872,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_TargetDisplay: 0
 --- !u!224 &1981108581
 RectTransform:

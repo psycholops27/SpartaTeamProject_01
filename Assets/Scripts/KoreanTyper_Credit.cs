@@ -12,11 +12,12 @@ public class Credit : MonoBehaviour {
     public Text[] CreditTexts;
 
     private void Start() {
+        Time.timeScale = 1.0f;  // 이전 씬에서 멈췄어도 여기서 정상 속도로 돌림
         StartCoroutine(TypingText());
     }
 
     public IEnumerator TypingText() {
-        while (true) {
+        
             //=======================================================================================================
             // Initializing | 초기화
             //=======================================================================================================
@@ -42,7 +43,7 @@ public class Credit : MonoBehaviour {
             }
             // Wait 1 second at the end | 마지막에 1초 추가 대기함
             yield return new WaitForSeconds(1f);
-        }
+        
     }
 }
 
