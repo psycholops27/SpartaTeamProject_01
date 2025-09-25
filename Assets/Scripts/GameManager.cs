@@ -15,8 +15,11 @@ public class GameManager : MonoBehaviour
     public Text TimeTxt;
     float time = 0.0f;
 
+    public GameObject PopUP;
     public GameObject SuccessTxt;
+    public GameObject SuccessBtn;
     public GameObject FailTxt;
+    public GameObject FailBtn;
 
     AudioSource audioSource;
     public AudioClip clip;
@@ -32,7 +35,10 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = 1.0f;
         TimeTxt.gameObject.SetActive(true);
+        PopUP.SetActive(false);
+        SuccessBtn.SetActive(false);
         SuccessTxt.SetActive(false);
+        FailBtn.SetActive(false);
         FailTxt.SetActive(false);
         audioSource = GetComponent<AudioSource>();
     }
@@ -41,7 +47,7 @@ public class GameManager : MonoBehaviour
     {
         time += Time.deltaTime;
         TimeTxt.text=time.ToString("N2");
-        if (time >= 30.0f)
+        if (time >= 45.0f)
         {
             GameOver();
         }
@@ -59,7 +65,9 @@ public class GameManager : MonoBehaviour
             {
                 Time.timeScale = 0.0f;
                 TimeTxt.gameObject.SetActive(false);
+                PopUP.SetActive(true);
                 SuccessTxt.SetActive(true);
+                SuccessBtn.SetActive(true);
             }
         }
         else
@@ -75,6 +83,8 @@ public class GameManager : MonoBehaviour
     public void GameOver()
     {
         Time.timeScale = 0.0f;
+        PopUP.SetActive(true);
         FailTxt.SetActive(true);
+        FailBtn.SetActive(true);
     }
 }
