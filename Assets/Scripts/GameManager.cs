@@ -21,6 +21,9 @@ public class GameManager : MonoBehaviour
     public GameObject FailTxt;
     public GameObject FailBtn;
 
+    AudioSource audioSource;
+    public AudioClip clip;
+
     public void Awake()
     {
         if(instance == null)
@@ -37,6 +40,7 @@ public class GameManager : MonoBehaviour
         SuccessTxt.SetActive(false);
         FailBtn.SetActive(false);
         FailTxt.SetActive(false);
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -53,6 +57,7 @@ public class GameManager : MonoBehaviour
     {
         if(firstCard.idx == secondCard.idx)
         {
+            audioSource.PlayOneShot(clip);
             firstCard.DestroyCard();
             secondCard.DestroyCard();
             CardCount -= 2;
