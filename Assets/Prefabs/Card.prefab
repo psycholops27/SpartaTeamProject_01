@@ -460,7 +460,9 @@ MonoBehaviour:
   back: {fileID: 2716738639077702367}
   anim: {fileID: 3296064508275511409}
   FrontImage: {fileID: 251678191107649064}
-  clip: {fileID: 8300000, guid: b0b7da17e6e16b944bd1afa4d9a36119, type: 3}
+  openclip: {fileID: 8300000, guid: b0b7da17e6e16b944bd1afa4d9a36119, type: 3}
+  failclip: {fileID: 8300000, guid: 534dcb8d5b3656c49be863689539e31c, type: 3}
+  successclip: {fileID: 8300000, guid: 4ab098c14c36c16419172d97e1b42c67, type: 3}
 --- !u!95 &3296064508275511409
 Animator:
   serializedVersion: 5
