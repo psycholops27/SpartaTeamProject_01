@@ -13,7 +13,10 @@ public class Card : MonoBehaviour
     public SpriteRenderer FrontImage;
 
     AudioSource audioSource;
-    public AudioClip clip;
+    public AudioClip openclip;
+    public AudioClip failclip;
+    public AudioClip successclip;
+
 
     public void Start()
     {
@@ -29,7 +32,7 @@ public class Card : MonoBehaviour
 
     public void OpenCard()
     {
-        audioSource.PlayOneShot(clip);
+        audioSource.PlayOneShot(openclip);
         anim.SetBool("isOpen", true);
         front.SetActive(true);
         back.SetActive(false);
@@ -47,6 +50,7 @@ public class Card : MonoBehaviour
 
     void CloseCardInvoke()
     {
+        audioSource.PlayOneShot(failclip);
         anim.SetBool("isOpen", false);
         front.SetActive(false);
         back.SetActive(true);
@@ -62,6 +66,7 @@ public class Card : MonoBehaviour
     }
     public void DestroyCard()
     {
+        audioSource.PlayOneShot(successclip);
         Invoke("DestroyCardInvoke", 0.5f);
     }
 
