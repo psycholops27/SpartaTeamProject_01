@@ -24,6 +24,7 @@ public class GameManager : MonoBehaviour
     AudioSource audioSource;
     public AudioClip Mainbgmclip;
     public AudioClip Gameoverclip;
+
     public void Awake()
     {
         if(instance == null)
@@ -82,6 +83,7 @@ public class GameManager : MonoBehaviour
     public void GameOver()
     {
         Time.timeScale = 0.0f;
+        TimeTxt.gameObject.SetActive(false);
         PopUP.SetActive(true);
         FailTxt.SetActive(true);
         FailBtn.SetActive(true);

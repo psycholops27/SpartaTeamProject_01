@@ -17,7 +17,6 @@ public class Card : MonoBehaviour
     public AudioClip failclip;
     public AudioClip successclip;
 
-
     public void Start()
     {
         audioSource = GetComponent<AudioSource>(); 
