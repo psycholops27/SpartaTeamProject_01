@@ -387,7 +387,8 @@ MonoBehaviour:
   SuccessBtn: {fileID: 596311054}
   FailTxt: {fileID: 1333546462}
   FailBtn: {fileID: 467482964}
-  SuccessClip: {fileID: 8300000, guid: c46ce43c06c064b4c89520a99acc1208, type: 3}
+  Mainbgmclip: {fileID: 0}
+  Gameoverclip: {fileID: 0}
 --- !u!4 &459253341
 Transform:
   m_ObjectHideFlags: 0
@@ -1094,8 +1095,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b123ca58aca3d244c9bc999a7876cb4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Mainclip: {fileID: 8300000, guid: 2ba6d5b29d0fda94985c32454a94c861, type: 3}
-  Failclip: {fileID: 8300000, guid: a54670ff119dd394a82cc278f635615e, type: 3}
+  clip: {fileID: 0}
 --- !u!4 &1031214444
 Transform:
   m_ObjectHideFlags: 0
@@ -1539,7 +1539,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -1612,7 +1612,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2129664372
 RectTransform:
   m_ObjectHideFlags: 0
