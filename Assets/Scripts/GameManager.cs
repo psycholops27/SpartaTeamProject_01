@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
 
     public Text TimeTxt;
     float time = 0.0f;
+    bool isGameOver = false;   // ★ 추가
 
     public GameObject PopUP;
     public GameObject SuccessTxt;
@@ -46,6 +47,7 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
+        if (isGameOver) return;                 // ★ 추가
         time += Time.deltaTime;
         TimeTxt.text=time.ToString("N2");
         if (time >= 45.0f)
@@ -82,6 +84,8 @@ public class GameManager : MonoBehaviour
 
     public void GameOver()
     {
+        if (isGameOver) return;                 // ★ 추가
+        isGameOver = true;                      // ★ 추가
         Time.timeScale = 0.0f;
         TimeTxt.gameObject.SetActive(false);
         PopUP.SetActive(true);
@@ -92,7 +96,7 @@ public class GameManager : MonoBehaviour
         if (am != null)
         {
             AudioSource bgmSource = am.GetComponent<AudioSource>();
-            bgmSource.Stop();
+           if (bgmSource != null && bgmSource.isPlaying) bgmSource.Stop(); // ← 추가 가드
         }
 
         // 게임 오버 효과음
