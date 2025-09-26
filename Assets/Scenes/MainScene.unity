@@ -701,7 +701,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e57d63db6da1e8b4ea5d5aebf6cab976, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clip: {fileID: 0}
+  clip: {fileID: 8300000, guid: ca45e1c2c50a1dd45bcbee391e9b2d2f, type: 3}
   volume: 1
 --- !u!1 &519420028
 GameObject:
@@ -969,7 +969,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e57d63db6da1e8b4ea5d5aebf6cab976, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clip: {fileID: 0}
+  clip: {fileID: 8300000, guid: 020920fe1901e624db6d8a2ec255a0a8, type: 3}
   volume: 1
 --- !u!1 &739884906
 GameObject:
@@ -1529,7 +1529,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e57d63db6da1e8b4ea5d5aebf6cab976, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clip: {fileID: 0}
+  clip: {fileID: 8300000, guid: 020920fe1901e624db6d8a2ec255a0a8, type: 3}
   volume: 1
 --- !u!1 &1722966023
 GameObject:
