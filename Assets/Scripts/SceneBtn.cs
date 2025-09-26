@@ -4,10 +4,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class SceneBtn : MonoBehaviour
-{
-    
+{   
     public void ToTitle()
-    {      
+    {   
         SceneManager.LoadScene("TitleScene");
     }
 

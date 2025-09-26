@@ -68,6 +68,12 @@ public class GameManager : MonoBehaviour
                 PopUP.SetActive(true);
                 SuccessTxt.SetActive(true);
                 SuccessBtn.SetActive(true);
+                AudioManager am = FindObjectOfType<AudioManager>();
+                if (am != null)
+                {
+                    AudioSource bgmSource = am.GetComponent<AudioSource>();
+                    bgmSource.Stop();
+                }
             }
         }
         else
@@ -95,7 +101,7 @@ public class GameManager : MonoBehaviour
             bgmSource.Stop();
         }
 
-        // 게임 오버 효과음
-        audioSource.PlayOneShot(Gameoverclip);
+        // 게임 오버 효과음 <<제거 
+       
     }
 }
