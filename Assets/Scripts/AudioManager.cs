@@ -23,8 +23,9 @@ public class AudioManager : MonoBehaviour
         audioSource.clip = this.clip;
         audioSource.Play();
     }
-    public void StopBGM()   // 추가
+    public void StopBGM()
     {
-        if (audioSource != null) AudioManager.Instance.StopBGM();
+        if (audioSource != null && audioSource.isPlaying)
+            audioSource.Stop();
     }
 }
