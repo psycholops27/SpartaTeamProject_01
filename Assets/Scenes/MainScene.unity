@@ -540,6 +540,7 @@ GameObject:
   - component: {fileID: 467482967}
   - component: {fileID: 467482971}
   - component: {fileID: 467482970}
+  - component: {fileID: 467482972}
   m_Layer: 5
   m_Name: FailBtn
   m_TagString: Untagged
@@ -652,6 +653,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 467482972}
+        m_TargetAssemblyTypeName: ButtonSound, Assembly-CSharp
+        m_MethodName: PlaySound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 467482971}
         m_TargetAssemblyTypeName: SceneBtn, Assembly-CSharp
         m_MethodName: Retry
@@ -676,6 +689,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f020eed54061024418a68f92f1bb5569, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &467482972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 467482964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e57d63db6da1e8b4ea5d5aebf6cab976, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clip: {fileID: 0}
+  volume: 1
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -781,13 +808,14 @@ GameObject:
   - component: {fileID: 596311056}
   - component: {fileID: 596311059}
   - component: {fileID: 596311058}
+  - component: {fileID: 596311060}
   m_Layer: 5
   m_Name: SuccessBtn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &596311055
 RectTransform:
   m_ObjectHideFlags: 0
@@ -893,6 +921,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 596311060}
+        m_TargetAssemblyTypeName: ButtonSound, Assembly-CSharp
+        m_MethodName: PlaySound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 596311059}
         m_TargetAssemblyTypeName: SceneBtn, Assembly-CSharp
         m_MethodName: ToCredit
@@ -917,6 +957,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f020eed54061024418a68f92f1bb5569, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &596311060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 596311054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e57d63db6da1e8b4ea5d5aebf6cab976, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clip: {fileID: 0}
+  volume: 1
 --- !u!1 &739884906
 GameObject:
   m_ObjectHideFlags: 0
@@ -1314,6 +1368,7 @@ GameObject:
   - component: {fileID: 1524100510}
   - component: {fileID: 1524100509}
   - component: {fileID: 1524100511}
+  - component: {fileID: 1524100513}
   m_Layer: 5
   m_Name: ToTitle
   m_TagString: Untagged
@@ -1396,6 +1451,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1524100513}
+        m_TargetAssemblyTypeName: ButtonSound, Assembly-CSharp
+        m_MethodName: PlaySound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1524100509}
         m_TargetAssemblyTypeName: SceneBtn, Assembly-CSharp
         m_MethodName: ToTitle
@@ -1450,6 +1517,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "\uD0C0\uC774\uD2C0\uB85C"
+--- !u!114 &1524100513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1524100507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e57d63db6da1e8b4ea5d5aebf6cab976, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clip: {fileID: 0}
+  volume: 1
 --- !u!1 &1722966023
 GameObject:
   m_ObjectHideFlags: 0
