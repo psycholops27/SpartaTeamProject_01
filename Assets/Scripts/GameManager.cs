@@ -87,5 +87,15 @@ public class GameManager : MonoBehaviour
         PopUP.SetActive(true);
         FailTxt.SetActive(true);
         FailBtn.SetActive(true);
+        // BGM 끄기
+        AudioManager am = FindObjectOfType<AudioManager>();
+        if (am != null)
+        {
+            AudioSource bgmSource = am.GetComponent<AudioSource>();
+            bgmSource.Stop();
+        }
+
+        // 게임 오버 효과음
+        audioSource.PlayOneShot(Gameoverclip);
     }
 }

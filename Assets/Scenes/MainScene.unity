@@ -388,7 +388,7 @@ MonoBehaviour:
   FailTxt: {fileID: 1333546462}
   FailBtn: {fileID: 467482964}
   Mainbgmclip: {fileID: 0}
-  Gameoverclip: {fileID: 0}
+  Gameoverclip: {fileID: 8300000, guid: 18dbe3656dc83444484790bd13b1503b, type: 3}
 --- !u!4 &459253341
 Transform:
   m_ObjectHideFlags: 0
@@ -415,7 +415,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0

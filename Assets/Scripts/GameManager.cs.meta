@@ -3,7 +3,17 @@ guid: 1abf50ae5360a154284049a85f29cc0d
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - firstCard: {instanceID: 0}
+  - secondCard: {instanceID: 0}
+  - TimeTxt: {instanceID: 0}
+  - PopUP: {instanceID: 0}
+  - SuccessTxt: {instanceID: 0}
+  - SuccessBtn: {instanceID: 0}
+  - FailTxt: {instanceID: 0}
+  - FailBtn: {instanceID: 0}
+  - Mainbgmclip: {instanceID: 0}
+  - Gameoverclip: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
