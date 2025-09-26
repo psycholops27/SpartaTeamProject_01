@@ -4,29 +4,22 @@ using UnityEngine.Events;  // UnityAction용
 
 public class ButtonSound : MonoBehaviour
 {
-    public AudioClip clip;            // 버튼 효과음
-    private AudioSource audioSource;  // 재생기
-    public float delay = 0.2f;        // 씬 전환 지연 시간
-    public UnityEvent onDelayedClick; // 지연 후 실행할 이벤트 (씬 전환 함수 넣기)
+    public AudioClip clip;
+    public float volume = 1f;
 
-    void Start()
+    public void PlaySound()
     {
-        audioSource = FindObjectOfType<AudioSource>();
-    }
+        if (clip == null) return;
 
-    // 버튼 OnClick에 이 함수 하나만 연결
-    public void PlaySoundAndDelay()
-    {
-        if (clip != null && audioSource != null)
-        {
-            audioSource.PlayOneShot(clip);
-        }
-        StartCoroutine(DelayInvoke());
-    }
+        GameObject go = new GameObject("OneShotSFX");
+        AudioSource src = go.AddComponent<AudioSource>();
+        src.playOnAwake = false;
+        src.spatialBlend = 0f;   // 2D
+        src.volume = volume;
+        src.clip = clip;
+        src.Play();
 
-    IEnumerator DelayInvoke()
-    {
-        yield return new WaitForSecondsRealtime(delay);
-        onDelayedClick.Invoke();  // 설정된 씬 전환 함수 실행
+        DontDestroyOnLoad(go);               // 씬 넘어가도 유지
+        Destroy(go, clip.length + 0.05f);    // 재생 끝나면 정리
     }
 }
