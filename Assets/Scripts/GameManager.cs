@@ -14,15 +14,17 @@ public class GameManager : MonoBehaviour
 
     public Text TimeTxt;
     float time = 0.0f;
+    bool isGameOver = false;   // ★ 추가
 
     public GameObject PopUP;
     public GameObject SuccessTxt;
     public GameObject SuccessBtn;
     public GameObject FailTxt;
     public GameObject FailBtn;
-    
+
     AudioSource audioSource;
-    public AudioClip SuccessClip;
+    public AudioClip Mainbgmclip;
+    public AudioClip Gameoverclip;
 
     public void Awake()
     {
@@ -40,17 +42,17 @@ public class GameManager : MonoBehaviour
         SuccessTxt.SetActive(false);
         FailBtn.SetActive(false);
         FailTxt.SetActive(false);
-        AudioManager.isGameOver = false;
-
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Update()
     {
+        if (isGameOver) return;                 // ★ 추가
         time += Time.deltaTime;
         TimeTxt.text=time.ToString("N2");
-        if (time >= 3.0f)
+        if (time >= 45.0f)
         {
-            GameOver(); // 3초 후에 게임 오버 처리
+            GameOver();
         }
     }
 
@@ -68,8 +70,6 @@ public class GameManager : MonoBehaviour
                 PopUP.SetActive(true);
                 SuccessTxt.SetActive(true);
                 SuccessBtn.SetActive(true);
-                audioSource = GetComponent<AudioSource>();
-                audioSource.PlayOneShot(SuccessClip);
             }
         }
         else
@@ -84,14 +84,22 @@ public class GameManager : MonoBehaviour
 
     public void GameOver()
     {
+        if (isGameOver) return;                 // ★ 추가
+        isGameOver = true;                      // ★ 추가
         Time.timeScale = 0.0f;
         TimeTxt.gameObject.SetActive(false);
         PopUP.SetActive(true);
         FailTxt.SetActive(true);
         FailBtn.SetActive(true);
-        audioSource = GetComponent<AudioSource>();
+        // BGM 끄기
+        AudioManager am = FindObjectOfType<AudioManager>();
+        if (am != null)
+        {
+            AudioSource bgmSource = am.GetComponent<AudioSource>();
+           if (bgmSource != null && bgmSource.isPlaying) bgmSource.Stop(); // ← 추가 가드
+        }
 
-        AudioManager.isGameOver = true;
-        AudioManager.Instance.PlayFailClip();
+        // 게임 오버 효과음
+        audioSource.PlayOneShot(Gameoverclip);
     }
 }

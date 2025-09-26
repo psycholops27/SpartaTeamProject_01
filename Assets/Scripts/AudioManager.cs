@@ -5,11 +5,8 @@ using UnityEngine;
 public class AudioManager : MonoBehaviour
 {
     public static AudioManager Instance;
-    public AudioClip Mainclip;
-    public AudioClip Failclip;
+    public AudioClip clip;
     AudioSource audioSource;
-
-    public static bool isGameOver = false; // 추가
 
     private void Awake()
     {
@@ -19,17 +16,16 @@ public class AudioManager : MonoBehaviour
         }
     }
 
-    private void Start()
+    void Start()
     {
-        audioSource = GetComponent<AudioSource>();// AudioSource 컴포넌트 가져오기
-        audioSource.clip = this.Mainclip;// 재생할 오디오 클립 설정
+        audioSource = GetComponent<AudioSource>();
+
+        audioSource.clip = this.clip;
         audioSource.Play();
     }
-
-    public void PlayFailClip()
+    public void StopBGM()
     {
-        audioSource.Stop();// 현재 재생 중인 오디오가 있으면 중지
-        audioSource.clip = this.Failclip;// 실패 오디오 클립 설정
-        audioSource.Play();
+        if (audioSource != null && audioSource.isPlaying)
+            audioSource.Stop();
     }
 }
