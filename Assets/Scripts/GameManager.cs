@@ -84,7 +84,7 @@ public class GameManager : MonoBehaviour
 
     public void GameOver()
     {
-        if (isGameOver) return;                 // ★ 추가
+        if (isGameOver) return;                 // ★ 추가 //return 중복 방지
         isGameOver = true;                      // ★ 추가
         Time.timeScale = 0.0f;
         TimeTxt.gameObject.SetActive(false);
