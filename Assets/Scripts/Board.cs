@@ -22,6 +22,6 @@ public class Board : MonoBehaviour
             go.GetComponent<Card>().Setting(arr[i]);
         }
 
-        GameManager.instance.CardCount = arr.Length; // arr.Length는 배열의 길이
+        GameManager.Instance.CardCount = arr.Length; // arr.Length는 배열의 길이
     }
 }

@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\COM\\Desktop\\Unity Projects\\SpartaTeamProject_01\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{35239F03-CA7D-30A7-8F2C-58A1EEDFD758}|Assembly-CSharp.csproj|C:\\Users\\COM\\Desktop\\Unity Projects\\SpartaTeamProject_01\\assets\\scripts\\scenebtn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35239F03-CA7D-30A7-8F2C-58A1EEDFD758}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenebtn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{35239F03-CA7D-30A7-8F2C-58A1EEDFD758}|Assembly-CSharp.csproj|c:\\users\\com\\desktop\\unity projects\\spartateamproject_01\\assets\\scripts\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35239F03-CA7D-30A7-8F2C-58A1EEDFD758}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35239F03-CA7D-30A7-8F2C-58A1EEDFD758}|Assembly-CSharp.csproj|c:\\users\\com\\desktop\\unity projects\\spartateamproject_01\\assets\\scripts\\koreantyper_credit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35239F03-CA7D-30A7-8F2C-58A1EEDFD758}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\koreantyper_credit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{35239F03-CA7D-30A7-8F2C-58A1EEDFD758}|Assembly-CSharp.csproj|C:\\Users\\COM\\Desktop\\Unity Projects\\SpartaTeamProject_01\\assets\\scripts\\sfxmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35239F03-CA7D-30A7-8F2C-58A1EEDFD758}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sfxmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{35239F03-CA7D-30A7-8F2C-58A1EEDFD758}|Assembly-CSharp.csproj|C:\\Users\\COM\\Desktop\\Unity Projects\\SpartaTeamProject_01\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35239F03-CA7D-30A7-8F2C-58A1EEDFD758}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35239F03-CA7D-30A7-8F2C-58A1EEDFD758}|Assembly-CSharp.csproj|C:\\Users\\COM\\Desktop\\Unity Projects\\SpartaTeamProject_01\\assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35239F03-CA7D-30A7-8F2C-58A1EEDFD758}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{35239F03-CA7D-30A7-8F2C-58A1EEDFD758}|Assembly-CSharp.csproj|C:\\Users\\COM\\Desktop\\Unity Projects\\SpartaTeamProject_01\\assets\\scripts\\bgmmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35239F03-CA7D-30A7-8F2C-58A1EEDFD758}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bgmmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35239F03-CA7D-30A7-8F2C-58A1EEDFD758}|Assembly-CSharp.csproj|C:\\Users\\COM\\Desktop\\Unity Projects\\SpartaTeamProject_01\\assets\\scripts\\scenebtn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35239F03-CA7D-30A7-8F2C-58A1EEDFD758}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenebtn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{35239F03-CA7D-30A7-8F2C-58A1EEDFD758}|Assembly-CSharp.csproj|C:\\Users\\COM\\Desktop\\Unity Projects\\SpartaTeamProject_01\\assets\\scripts\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35239F03-CA7D-30A7-8F2C-58A1EEDFD758}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35239F03-CA7D-30A7-8F2C-58A1EEDFD758}|Assembly-CSharp.csproj|C:\\Users\\COM\\Desktop\\Unity Projects\\SpartaTeamProject_01\\assets\\scripts\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35239F03-CA7D-30A7-8F2C-58A1EEDFD758}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,8 +33,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "DockedWidth": 225,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
@@ -44,72 +44,81 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
               "ToolTip": "C:\\Users\\COM\\Desktop\\Unity Projects\\SpartaTeamProject_01\\Assets\\Scripts\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAqwFsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAcwHIAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-24T02:05:20.579Z",
               "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "SFXManager.cs",
+              "DocumentMoniker": "C:\\Users\\COM\\Desktop\\Unity Projects\\SpartaTeamProject_01\\Assets\\Scripts\\SFXManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SFXManager.cs",
+              "ToolTip": "C:\\Users\\COM\\Desktop\\Unity Projects\\SpartaTeamProject_01\\Assets\\Scripts\\SFXManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SFXManager.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAADwvwsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T17:49:50.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BgmManager.cs",
+              "DocumentMoniker": "C:\\Users\\COM\\Desktop\\Unity Projects\\SpartaTeamProject_01\\Assets\\Scripts\\BgmManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BgmManager.cs",
+              "ToolTip": "C:\\Users\\COM\\Desktop\\Unity Projects\\SpartaTeamProject_01\\Assets\\Scripts\\BgmManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BgmManager.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAuwEgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T14:01:12.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "SceneBtn.cs",
               "DocumentMoniker": "C:\\Users\\COM\\Desktop\\Unity Projects\\SpartaTeamProject_01\\Assets\\Scripts\\SceneBtn.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SceneBtn.cs",
               "ToolTip": "C:\\Users\\COM\\Desktop\\Unity Projects\\SpartaTeamProject_01\\Assets\\Scripts\\SceneBtn.cs",
               "RelativeToolTip": "Assets\\Scripts\\SceneBtn.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T06:58:09.39Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-27T15:00:39.664Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "KoreanTyper_Credit.cs",
-              "DocumentMoniker": "C:\\Users\\COM\\Desktop\\Unity Projects\\SpartaTeamProject_01\\Assets\\Scripts\\KoreanTyper_Credit.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\KoreanTyper_Credit.cs",
-              "ToolTip": "C:\\Users\\COM\\Desktop\\Unity Projects\\SpartaTeamProject_01\\Assets\\Scripts\\KoreanTyper_Credit.cs",
-              "RelativeToolTip": "Assets\\Scripts\\KoreanTyper_Credit.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T07:50:40.826Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AudioManager.cs",
-              "DocumentMoniker": "C:\\Users\\COM\\Desktop\\Unity Projects\\SpartaTeamProject_01\\Assets\\Scripts\\AudioManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\AudioManager.cs",
-              "ToolTip": "C:\\Users\\COM\\Desktop\\Unity Projects\\SpartaTeamProject_01\\Assets\\Scripts\\AudioManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\AudioManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T06:58:14.194Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Card.cs",
               "DocumentMoniker": "C:\\Users\\COM\\Desktop\\Unity Projects\\SpartaTeamProject_01\\Assets\\Scripts\\Card.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Card.cs",
               "ToolTip": "C:\\Users\\COM\\Desktop\\Unity Projects\\SpartaTeamProject_01\\Assets\\Scripts\\Card.cs",
               "RelativeToolTip": "Assets\\Scripts\\Card.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAADwvxsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T02:05:26.949Z"
+              "WhenOpened": "2025-09-27T14:28:55.6Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Board.cs",
               "DocumentMoniker": "C:\\Users\\COM\\Desktop\\Unity Projects\\SpartaTeamProject_01\\Assets\\Scripts\\Board.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Board.cs",
               "ToolTip": "C:\\Users\\COM\\Desktop\\Unity Projects\\SpartaTeamProject_01\\Assets\\Scripts\\Board.cs",
               "RelativeToolTip": "Assets\\Scripts\\Board.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T02:05:25.152Z"
+              "WhenOpened": "2025-09-27T14:46:56.627Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 175,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
             }
           ]
         }

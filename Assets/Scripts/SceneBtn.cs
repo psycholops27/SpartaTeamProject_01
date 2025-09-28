@@ -5,20 +5,24 @@ using UnityEngine.SceneManagement;
 
 public class SceneBtn : MonoBehaviour
 {
-    
+    public static SceneBtn Instance;
+
     public void ToTitle()
-    {      
+    {
         SceneManager.LoadScene("TitleScene");
+        SFXManager.Instance.BtnClick();
     }
 
     public void Retry()
     {
         SceneManager.LoadScene("MainScene");
+        SFXManager.Instance.BtnClick();
     }
 
     public void ToCredit()
     {
         SceneManager.LoadScene("CreditScene");
+        SFXManager.Instance.BtnClick();
     }
 
     public void GameExit()

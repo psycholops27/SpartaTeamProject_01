@@ -1,36 +1,34 @@
-using System.Collections;
+using System.Collections; // ClearRoutine을 사용하기 위해서는 꼭 필요한 코드
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
+// 카드 매칭, 시간, 게임 클리어/게임 오버, 팝업 관리
 {
-    public static GameManager instance;
+    public static GameManager Instance;
 
     public Card firstCard;
     public Card secondCard;
-
     public int CardCount = 0;
 
     public Text TimeTxt;
     float time = 0.0f;
-    bool isGameOver = false;   // ★ 추가
 
     public GameObject PopUP;
-    public GameObject SuccessTxt;
-    public GameObject SuccessBtn;
-    public GameObject FailTxt;
-    public GameObject FailBtn;
+    public GameObject Success;
+    public GameObject Fail;
 
-    AudioSource audioSource;
-    public AudioClip Mainbgmclip;
-    public AudioClip Gameoverclip;
+    public bool isMatched = false;
+    public bool isUnmatched = false;
+    public bool isClear = false;
+    public bool isGameOver = false;
 
-    public void Awake()
+    void Awake()
     {
-        if(instance == null)
+        if (Instance == null)
         {
-            instance = this;
+            Instance = this;
         }
     }
     void Start()
@@ -38,68 +36,85 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1.0f;
         TimeTxt.gameObject.SetActive(true);
         PopUP.SetActive(false);
-        SuccessBtn.SetActive(false);
-        SuccessTxt.SetActive(false);
-        FailBtn.SetActive(false);
-        FailTxt.SetActive(false);
-        audioSource = GetComponent<AudioSource>();
+        Success.SetActive(false);
+        Fail.SetActive(false);
     }
 
     void Update()
     {
-        if (isGameOver) return;                 // ★ 추가
         time += Time.deltaTime;
-        TimeTxt.text=time.ToString("N2");
+        TimeTxt.text = time.ToString("N2");
         if (time >= 45.0f)
         {
             GameOver();
         }
     }
 
-    public void Matched()
+    public void Matching() // 카드 매칭 관리
     {
-        if(firstCard.idx == secondCard.idx)
+        if (firstCard.idx == secondCard.idx)
         {
+            SFXManager.Instance.PlayMatched();
             firstCard.DestroyCard();
             secondCard.DestroyCard();
             CardCount -= 2;
+            isMatched = true;
             if (CardCount == 0)
             {
-                Time.timeScale = 0.0f;
-                TimeTxt.gameObject.SetActive(false);
-                PopUP.SetActive(true);
-                SuccessTxt.SetActive(true);
-                SuccessBtn.SetActive(true);
+                Clear();
             }
         }
         else
         {
+            SFXManager.Instance.PlayUnmatched();
             firstCard.CloseCard();
             secondCard.CloseCard();
+            isUnmatched = true;
         }
 
         firstCard = null;
         secondCard = null;
     }
 
-    public void GameOver()
+    public void Clear()
     {
-        if (isGameOver) return;                 // ★ 추가
-        isGameOver = true;                      // ★ 추가
+        if (isClear) return;
+        StartCoroutine(ClearRoutine());
+    }
+
+    IEnumerator ClearRoutine()
+    {
+        isClear = true;
+        SFXManager.Instance.PlayGameClear();
+        BgmManager.Instance.ChangeMusic(); // Clear 됐다는 사실을 BgmManager한테 알려줘야 함
+
+        yield return null;
+
         Time.timeScale = 0.0f;
         TimeTxt.gameObject.SetActive(false);
         PopUP.SetActive(true);
-        FailTxt.SetActive(true);
-        FailBtn.SetActive(true);
-        // BGM 끄기
-        AudioManager am = FindObjectOfType<AudioManager>();
-        if (am != null)
-        {
-            AudioSource bgmSource = am.GetComponent<AudioSource>();
-           if (bgmSource != null && bgmSource.isPlaying) bgmSource.Stop(); // ← 추가 가드
-        }
+        Success.SetActive(true);
+    }
 
-        // 게임 오버 효과음
-        audioSource.PlayOneShot(Gameoverclip);
+    public void GameOver()
+    {
+
+        if (isGameOver) return;
+        StartCoroutine (GameOverRoutine());
+    }
+
+
+    IEnumerator GameOverRoutine()
+    {
+        isGameOver = true;
+        BgmManager.Instance.ChangeMusic();
+
+        yield return null;
+
+        Time.timeScale = 0.0f;
+        TimeTxt.gameObject.SetActive(false);
+        PopUP.SetActive(true);
+        Fail.SetActive(true);
+
     }
 }

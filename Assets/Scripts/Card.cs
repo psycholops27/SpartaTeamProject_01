@@ -4,25 +4,16 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class Card : MonoBehaviour
+// 카드 정보 및 카드 오픈/클로즈/파괴 관리
 {
-    public int idx=0;
+    public static Card Instance;
 
+    public int idx=0;
     public GameObject front;
     public GameObject back;
     public Animator anim;
     public SpriteRenderer FrontImage;
 
-    AudioSource audioSource;
-    public AudioClip openclip;
-    public AudioClip failclip;
-    public AudioClip successclip;
-
-    public void Start()
-    {
-        audioSource = GetComponent<AudioSource>(); 
-    }
-
-    
     public void Setting(int number)
     { 
         idx = number;
@@ -31,43 +22,43 @@ public class Card : MonoBehaviour
 
     public void OpenCard()
     {
-        audioSource.PlayOneShot(openclip);
         anim.SetBool("isOpen", true);
         front.SetActive(true);
         back.SetActive(false);
 
-        if(GameManager.instance.firstCard == null)
+        SFXManager.Instance.PlayCardOpen();
+
+        if (GameManager.Instance.firstCard == null)
         {
-            GameManager.instance.firstCard = this;
+            GameManager.Instance.firstCard = this;
         }
         else
         {
-            GameManager.instance.secondCard = this;
-            GameManager.instance.Matched();
+            GameManager.Instance.secondCard = this;
+            GameManager.Instance.Matching();
         }
+    }
+
+    public void CloseCard()
+    {
+        Invoke("CloseCardInvoke", 0.5f);
+        
     }
 
     void CloseCardInvoke()
     {
-        audioSource.PlayOneShot(failclip);
         anim.SetBool("isOpen", false);
         front.SetActive(false);
         back.SetActive(true);
     }
-    public void CloseCard()
+
+    public void DestroyCard()
     {
-       Invoke("CloseCardInvoke", 0.5f);
+        Invoke("DestroyCardInvoke", 0.5f);
     }
 
     void DestroyCardInvoke()
     {
         Destroy(gameObject);
     }
-    public void DestroyCard()
-    {
-        audioSource.PlayOneShot(successclip);
-        Invoke("DestroyCardInvoke", 0.5f);
-    }
-
-
 }
